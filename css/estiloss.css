@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(0, 0, 255, 0.342);
+}
+header{
+    background-color: rgba(89, 0, 255, 0.508);
+    color: white;
+}
+/* Estilos para la cabecera */   
+header.Cabecera{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+/*Llamada de estilos para el menú de navegación*/
+#contenido-principal{
+    background-color: rgba(0, 0, 255, 0.758);
+}
