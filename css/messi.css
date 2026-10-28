@@ -327,3 +327,18 @@ section.login {
     background: rgba(74, 127, 212, 1);
     transform: translateY(-2px);
 }
+/* ============ MEDIA QUERIES ADICIONALES ============ */
+
+/* Pantallas hasta 800px: Cambiar la imagen de fondo por img2 */
+@media (max-width: 800px) {
+    body.bodylogin {
+        background: url("../img/img2.jpg") center / cover no-repeat fixed;
+    }
+}
+
+/* Pantallas hasta 450px: Cambiar el fondo al color #333 (removiendo la imagen) */
+@media (max-width: 450px) {
+    body.bodylogin {
+        background: #333333;
+    }
+}
